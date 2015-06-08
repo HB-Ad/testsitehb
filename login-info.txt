@@ -1,0 +1,21 @@
+  ---//username and pass//---
+
+   Database name: testDruid
+   username: druhb 
+   pass: FE-2Dm.
+
+   Website user name and pass admin:
+   username: HB
+   pass: yEAWAre/9.
+   email: bekelehelen15@yahoo.com
+
+   user1, staffs
+    username: MA
+     pass: miTu)K1.3
+   email: hellenayalew@yahoo.com
+
+   user2, members
+    username: eY
+   pass:yeAhunU.(
+   email: mitbekele@yahoo.com
+  

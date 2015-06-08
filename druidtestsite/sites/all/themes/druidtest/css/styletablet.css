@@ -1,0 +1,284 @@
+/**
+ * @file
+ * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
+ *
+ * When you turn on CSS aggregation at admin/config/development/performance, all
+ * of these @include files will be combined into a single file.
+ */
+
+/* HTML element (SMACSS base) rules */
+@import "normalize.css";
+
+/* Layout rules */
+@import "layouts/fixed.css";
+
+/* Component (SMACSS module) rules */
+@import "components/misc.css";
+/* Optionally, add your own components here. */
+@import "print.css";
+
+/* SMACSS theme rules */
+/* @import "theme-A.css"; */
+/* @import "theme-B.css"; */
+/*google font*/
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,700italic,400italic);
+
+/*front page*/
+
+#header{
+
+margin-bottom: 20px;
+
+}
+
+.header__site-link{
+color: #000000;
+font-size: 36px;
+font-family: 'PT Sans', sans-serif;
+font-weight: 700;
+font-style: italic;
+
+}
+body, html{
+
+
+height: 100%;
+
+}
+
+#main{
+
+padding-top: 60px;
+
+
+}
+#main, #page, #navigation{
+	width: 800px;
+}
+
+.view-display-id-block_homepage{
+	width: 680px;
+
+}
+
+.view-display-id-block_homepage .views-row{
+	width: 300px;
+	height: 400px;
+	margin-right: 40px;
+	float: left;
+	margin-bottom: 30px;
+
+}
+.view-display-id-block_homepage a.views-more-link{
+font-weight: 700;
+}
+.view-display-id-block_homepage .views-field-created{
+font-family: 'PT Sans', sans-serif;
+font-weight: 400;
+font-size: 16px;
+text-transform: uppercase;
+color: #666666;
+
+}
+.view-display-id-block_homepage .views-field-term-node-tid{
+font-family: 'PT Sans', sans-serif;
+font-weight: 700;
+font-size: 19px;
+text-transform: uppercase;
+color: #333333;
+text-decoration: underline;
+margin-right: 5px;
+
+}
+
+.view-display-id-block_homepage .views-field-title{
+font-family: 'PT Sans', sans-serif;
+font-weight: 700;
+font-size: 17px;
+color: #000000;
+text-decoration: none;
+margin-top: 8px;
+
+}
+.view-display-id-block_homepage .views-field-title a{
+text-decoration: none;
+color: #000000;
+}
+.view-display-id-block_homepage .views-field-body a{
+text-decoration: none;
+color: #000000;
+}
+
+.view-display-id-block_homepage .views-field-term-node-tid a{
+text-decoration: none;
+color: #000000;
+}
+.view-display-id-block_homepage .views-field-body{
+font-family: 'PT Sans', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #000;
+text-decoration: none;
+margin-top: -16px;
+}
+
+.view-display-id-block_homepage .views-field-field-thumbnail{
+margin-bottom: 10px;
+}
+/*main menu*/
+
+#main-menu{
+margin-left: 70px;
+
+}
+
+#main-menu li, #main-menu li a{
+font-family: 'PT Sans', sans-serif;
+font-weight: 700;
+font-size: 20px;
+color: #404040;
+margin-right: 10px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+#main-menu li a:hover{
+text-decoration: underline;
+}
+
+/*right side blocks*/
+
+#block-views-docrss-block-ownfeed, #block-views-c0025862b3d63f94235a056be32696be,
+.view-display-id-block_contentcurrentuser{
+font-family: 'PT Sans', sans-serif;
+font-weight: 700;
+font-size: 17px;
+color: #000000;
+text-decoration: none;
+padding-top: 0px;
+margin-top: 0px;
+
+}
+#block-views-docrss-block-ownfeed h2, .views-exposed-form label{
+ font-family: 'PT Sans', sans-serif;
+font-weight: 700;
+ font-size: 20px;
+ margin-top: 0px;
+ line-height: 22px;
+ margin-bottom: 10px;
+ text-transform: uppercase;
+
+ 
+}
+#block-views-docrss-block-ownfeed a, #block-views-c0025862b3d63f94235a056be32696be a,
+.view-display-id-block_contentcurrentuser .views-field-title a{
+ color: #000000;
+ text-decoration: none;
+ 
+}
+.views-exposed-form .views-exposed-widget .form-submit{
+margin-top: 5px;
+
+}
+
+.views-exposed-form .views-exposed-widget{
+float: none;
+}
+
+button, select{
+font-family: 'PT Sans', sans-serif;
+font-weight: 400;
+font-size: 17px;
+color: #000000;
+text-decoration: none;
+
+}
+/*footer*/
+
+#block-block-1 p{
+font-family: 'PT Sans', sans-serif;
+font-weight: 700;
+font-size: 17px;
+color: #000000;
+
+
+}
+/*documentary node and term page*/
+.view-display-id-block_docnode .views-field-body{
+width: 600px;
+font-family: "PT Sans",sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #000;
+}
+
+
+.view-display-id-block_termpage{
+width: 680px;
+}
+
+.view-display-id-block_termpage .views-row{
+width: 300px;
+height: 300px;
+margin-right: 40px;
+float: left;
+margin-bottom: 30px;}
+
+.view-display-id-block_termpage  .views-field-created{
+font-family: 'PT Sans', sans-serif;
+font-weight: 400;
+font-size: 16px;
+text-transform: uppercase;
+color: #666666;
+
+}
+
+.view-display-id-block_termpage .views-field-title, .view-display-id-block_docnode .views-field-title {
+font-family: 'PT Sans', sans-serif;
+font-weight: 700;
+font-size: 17px;
+color: #000000;
+text-decoration: none;
+margin-top: 8px;
+
+}
+.view-display-id-block_termpage .views-field-title a{
+text-decoration: none;
+color: #000000;
+}
+
+.view-display-id-block_docnode .views-field-title a{
+text-decoration: none;
+color: #000000;
+}
+
+.view-display-id-block_docnode .views-field-term-node-tid{
+font-family: 'PT Sans', sans-serif;
+font-weight: 700;
+font-size: 19px;
+text-transform: uppercase;
+color: #333333;
+text-decoration: underline;
+margin-top: 15px;
+}
+
+.view-display-id-block_docnode .views-field-term-node-tid a{
+color: #000000;
+}
+
+h2.block__title.block-title{
+text-transform: uppercase;
+padding-bottom: 15px;
+}
+
+.sidebar-second .region-sidebar-second {
+width: 600px;
+float: left;
+clear: both;
+}
+.sidebar-second #content {
+float: left;
+width: 600px;
+clear: both;
+}
+
